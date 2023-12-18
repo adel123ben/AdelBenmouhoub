@@ -14,7 +14,7 @@ import { HoverCardDemo } from "./HoverCardDemo";
 export default function NewFeed() {
   return (
     <main className="w-full h-screen mt-[-20px] flex flex-col justify-center items-center  bg-gray-100">
-      <h1 className="text-[50px] font-bold mb-4 orange">
+      <h1 className="text-[20px] xl:text-[50px] lg:text-[50px] md:text-[50px] font-bold mb-4 orange">
       <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
@@ -31,8 +31,8 @@ export default function NewFeed() {
     />
       </h1>
       <h2 className="text-sm flex flex-row items-center font-semibold text-gray-600 mb-4"><SlLocationPin size={20} className="text-lg mr-2 flex flex-row items-center text-red-400" />Algeria,Alger</h2>
-      <p className="text-lg w-[900px] text-gray-700/80 px-4 text-center max-w-lg">
-      I&aposm a naturally curious designer with an appetite for No-Code tools, motion design, and tasty food <span className="underline flex items-center"></span>. 
+      <p className="text-sm xl:text-lg lg:text-lg md:text-lg w-96 xl:w-[900px] lg:w-[900px] md:w-[900px] text-gray-700/80 px-4 text-center max-w-lg">
+      I’m a naturally curious designer with an appetite for No-Code tools, motion design, and tasty food <span className="underline flex items-center"></span>. 
       </p>
       <div className="flex flex-wrap justify-center gap-4 mt-8">
         
@@ -41,4 +41,3 @@ export default function NewFeed() {
     </main>
   )
 }
-
