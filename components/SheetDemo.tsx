@@ -26,7 +26,7 @@ export function SheetDemo() {
         <SheetHeader>
           <SheetTitle>Send Me A Message</SheetTitle>
           <SheetDescription>
-            Make changes to your Message here. Click save when you're done.
+            Make changes to your Message here. Click save when you&aposre done.
           </SheetDescription>
         </SheetHeader>
         <div className="grid gap-4 py-4">
