@@ -32,7 +32,7 @@ export default function NewFeed() {
       </h1>
       <h2 className="text-sm flex flex-row items-center font-semibold text-gray-600 mb-4"><SlLocationPin size={20} className="text-lg mr-2 flex flex-row items-center text-red-400" />Algeria,Alger</h2>
       <p className="text-lg w-[900px] text-gray-700/80 px-4 text-center max-w-lg">
-      I’m a naturally curious designer with an appetite for No-Code tools, motion design, and tasty food <span className="underline flex items-center"></span>. 
+      I&aposm a naturally curious designer with an appetite for No-Code tools, motion design, and tasty food <span className="underline flex items-center"></span>. 
       </p>
       <div className="flex flex-wrap justify-center gap-4 mt-8">
         
